@@ -22,7 +22,11 @@ public with sharing class reservationManagerController
                 
         if(sObjectType == 'Contact')
         {
-            for(Contact c:[SELECT Id, Email, Name, MailingCity, MailingState, Reservation_Status__c FROM Contact WHERE Reservation_Status__c IN ('Not Started') LIMIT 5])
+            for(Contact c:[SELECT Id, Email, Name, MailingCity, MailingState, Reservation_Status__c 
+                        FROM Contact 
+                        WHERE Reservation_Status__c 
+                        IN ('Not Started') 
+                        LIMIT 5])
             {
                 customerServices.Customer cu = new customerServices.Customer(c.Name, c.Email, c.MailingCity, c.MailingState, c.Reservation_Status__c, c.Id);
                 

@@ -2,7 +2,32 @@
     "compilerOptions": {
         "experimentalDecorators": true,
         "baseUrl": ".",
-        "paths": {}
+        "paths": {
+            "c/customerTile": [
+                "customerTile/customerTile.js"
+            ],
+            "c/customerList": [
+                "customerList/customerList.js"
+            ],
+            "c/inlineMessage": [
+                "inlineMessage/inlineMessage.js"
+            ],
+            "c/pubsub": [
+                "pubsub/pubsub.js"
+            ],
+            "c/reservationHelper": [
+                "reservationHelper/reservationHelper.js"
+            ],
+            "c/reservationDetailForm": [
+                "reservationDetailForm/reservationDetailForm.js"
+            ],
+            "c/customerDetailForm": [
+                "customerDetailForm/customerDetailForm.js"
+            ],
+            "c/reservationHelperForm": [
+                "reservationHelperForm/reservationHelperForm.js"
+            ]
+        }
     },
     "include": [
         "**/*",
