@@ -26,6 +26,30 @@
             ],
             "c/reservationHelperForm": [
                 "reservationHelperForm/reservationHelperForm.js"
+            ],
+            "c/reservationTile": [
+                "reservationTile/reservationTile.js"
+            ],
+            "c/reservationList": [
+                "reservationList/reservationList.js"
+            ],
+            "c/imageTile": [
+                "imageTile/imageTile.js"
+            ],
+            "c/imageGallery": [
+                "imageGallery/imageGallery.js"
+            ],
+            "c/pill": [
+                "pill/pill.js"
+            ],
+            "c/pillList": [
+                "pillList/pillList.js"
+            ],
+            "c/spaceDesignForm": [
+                "spaceDesignForm/spaceDesignForm.js"
+            ],
+            "c/spaceDesigner": [
+                "spaceDesigner/spaceDesigner.js"
             ]
         }
     },
